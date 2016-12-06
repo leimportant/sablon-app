@@ -1,0 +1,76 @@
+2016-11-24 11:17:00 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: BRu' in D:\www\htdocs\myweb\vendor\yiisoft\yii2\rest\Action.php:101
+Stack trace:
+#0 D:\www\htdocs\myweb\vendor\yiisoft\yii2\rest\ViewAction.php(27): yii\rest\Action->findModel('BRu')
+#1 [internal function]: yii\rest\ViewAction->run('BRu')
+#2 D:\www\htdocs\myweb\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#3 D:\www\htdocs\myweb\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\Action->runWithParams(Array)
+#4 D:\www\htdocs\myweb\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#5 D:\www\htdocs\myweb\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('v1/country/view', Array)
+#6 D:\www\htdocs\myweb\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\www\htdocs\myweb\api\web\index.php(14): yii\base\Application->run()
+#8 {main}
+2016-11-24 11:17:00 [::1][-][-][info][application] $_GET = [
+    'id' => 'BRu'
+]
+
+$_COOKIE = [
+    '_identity' => 'bd1942c4cc9ed67a4b6bd4c149c67f1d988641d3fc995bdb0f77b4c3b0b8cc28a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"p-Ohnru6HHKw8fK7FLnym7hHYPB4qYmV\",2592000]\";}'
+    '_ga' => 'GA1.1.446760742.1479882919'
+    'advanced-backend' => '3iks5qv1vh1c8n6in3mduil0q1'
+    '_csrf-backend' => '06130332f268b7b82230e7ff53a355b59c14cbdb6ba74a7b8905af6dc0bb779da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kzM8wFFzsv38YFnrW_zz34qcvlr6InAj\";}'
+    '_csrf-frontend' => 'f5020366e4a4c46a30cfc7d3f18770cc064356fdc212599ee4f2494b21b3cb78a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Fmiqs3nVSKDgnA9db-OTjbp_WVOnqjSi\";}'
+    'advanced-frontend' => '6l3f942rctndb858o7bk5lfou3'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/www/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/www/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\www\\php'
+    'REDIRECT_TMP' => '\\www\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/www/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/www/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\www\\php'
+    'TMP' => '\\www\\tmp'
+    'HTTP_HOST' => 'localhost:7500'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,en-US;q=0.7,id;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=bd1942c4cc9ed67a4b6bd4c149c67f1d988641d3fc995bdb0f77b4c3b0b8cc28a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22p-Ohnru6HHKw8fK7FLnym7hHYPB4qYmV%22%2C2592000%5D%22%3B%7D; _ga=GA1.1.446760742.1479882919; advanced-backend=3iks5qv1vh1c8n6in3mduil0q1; _csrf-backend=06130332f268b7b82230e7ff53a355b59c14cbdb6ba74a7b8905af6dc0bb779da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kzM8wFFzsv38YFnrW_zz34qcvlr6InAj%22%3B%7D; _csrf-frontend=f5020366e4a4c46a30cfc7d3f18770cc064356fdc212599ee4f2494b21b3cb78a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Fmiqs3nVSKDgnA9db-OTjbp_WVOnqjSi%22%3B%7D; advanced-frontend=6l3f942rctndb858o7bk5lfou3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files\\PHP\\v7.0;C:\\Windows\\system32\\inetsrv;C:\\Program Files (x86)\\ActiveState Komodo IDE 9\\;C:\\Windows\\system32\\inetsrv;C:\\ImageMagick;D:\\ImageMagick;C:\\Program Files\\ImageMagick;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32\\inetsrv;C:\\Program Files (x86)\\PHP\\v5.5;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Users\\M. Soleh\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\D;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\M. Soleh\\.dnx\\runtimes\\dnx-clr-win-x86.1.0.0-beta8\\bin;C:\\Users\\M. Soleh\\.dnx\\bin;C:\\Users\\M. Soleh\\AppData\\Local\\Code\\bin;C:\\Users\\M. Soleh\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\M. Soleh\\AppData\\Local\\Programs\\Git\\cmd;C:\\Users\\M. Soleh\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\M. Soleh\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 7500</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '7500'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/www/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/www/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/www/htdocs/myweb/api/web/index.php'
+    'REMOTE_PORT' => '11291'
+    'REDIRECT_URL' => '/myweb/api/web/v1/countries/BRu'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/myweb/api/web/v1/countries/BRu'
+    'SCRIPT_NAME' => '/myweb/api/web/index.php'
+    'PHP_SELF' => '/myweb/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479961020.234
+    'REQUEST_TIME' => 1479961020
+]
