@@ -128,7 +128,7 @@ AdminLteAsset::register($this);
             <header class="main-header">
                 <!-- Logo -->
                 <?php
-                $img = Html::img('@web/images/Logo-Stanli.jpg', ['width' => '50px', 'height' => '50px', 'class' => 'logo']);
+                $img = Html::img('@web/images/Logo.jpg', ['width' => '50px', 'height' => '50px', 'class' => 'logo']);
                 echo Html::a($img, ['/site/index']);
                 ?>
                 <section class="sidebar">
@@ -242,7 +242,7 @@ AdminLteAsset::register($this);
 
             <footer class="footer">
                 <div class="container">
-                    <p class="pull-left">&copy; PT. Stanli Trijaya Mandiri <?= date('Y') ?></p>
+                    <p class="pull-left">&copy; My. Company <?= date('Y') ?></p>
                     <!--<p class="pull-right"><?  Yii::powered() ?></p>-->
                 </div>
             </footer>
