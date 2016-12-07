@@ -178,36 +178,6 @@ $baseUrl = $asset->baseUrl;
             </article>
         </section>
 
-
-
-        <?php
-//                    SideNav::widget([
-//                        'type' => SideNav::TYPE_DEFAULT,
-//                        'heading' => isset($this->pageTitle) ? $this->pageTitle : Yii::$app->name,
-//                        'options' => ['class' => 'sidebar-menu sidebar main-sidebar'],
-//                        'items' => MenuHelper::getAssignedMenu(Yii::$app->user->id), // di mengambil data dari extension yii2-admin
-//                        'encodeLabels' => false
-//                    ]);
-        ?>
-
-        <?php
-//                    echo yii\jui\Menu::widget([
-//                        'id' => 'menu',
-//                        'items' => MenuHelper::getAssignedMenu(Yii::$app->user->id),
-//                    ]);
-        ?>
-        <!--                </div>
-                    </aside>
-                    <article class="col-md-12" id="content">
-        <?php /*
-          Breadcrumbs::widget([
-          'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-          ])
-          ?>
-          <?= Alert::widget() */ ?>
-                      
-                    </article>
-                </section>-->
         <footer id="foot">
             <section class="container">
                 <div class="row">
@@ -215,14 +185,7 @@ $baseUrl = $asset->baseUrl;
                         <div class="col-lg-10">
                             <div class="footer-widget">
                                 <div class="textwidget"><h5 class="quick-links-heading">Office :</h5>
-                                    <p>
-                                        Kawasan Industri Trikencana Kav. 59-60<br>
-                                        Jl. Terusan Kopo Km. 11,5<br>
-                                        Bandung 40971 Indonesia<br>
-                                        Phone: +62-22-5891070<br>
-                                        Fax: +62-22-5891225 <br>
-
-                                    </p>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -251,7 +214,7 @@ $baseUrl = $asset->baseUrl;
                 <hr>
                 <div class="row">
                     <div class="col-sm-10">
-                        <p class="copyright">Copyright © 2015 <a href="http://www.stanli.co.id/">PT. Stanli Trijaya Mandiri</a>, All rights reserved.</p>
+                        <p class="copyright">Copyright © 2015 <a href="#">My. COmpany</a>, All rights reserved.</p>
                     </div>
 
                 </div>
